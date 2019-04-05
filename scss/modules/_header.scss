@@ -1,0 +1,22 @@
+.header{
+	height: 100vh;
+	background: url('../images/header-bg.jpg') no-repeat top center ;
+	background-size: cover;
+	padding-top: 40px;
+	margin-bottom: 60px;
+
+	&__desc{
+		width: 31%;
+		margin: 0 auto;
+		text-align: center;
+		font:24px $header;
+		color: #fff;
+		margin-top: 125px;
+	}
+}
+.logo{
+	position: absolute;
+	top:5px;
+	left: 50%;
+	margin-left: -92px;
+}

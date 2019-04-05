@@ -1,0 +1,15 @@
+.footer{
+	background: $blue;
+	
+	padding: 30px 0;
+	&__text{
+		display: inline-block;
+		font:14px $text;
+		color:#fff;
+
+	}
+}
+.v-container-footer{
+	display: flex;
+	justify-content: space-between;
+}

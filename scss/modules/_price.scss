@@ -1,0 +1,32 @@
+.price{
+	&__title{
+		text-align: center;
+		font:24px $text;
+		color:$font;
+		margin-bottom: 40px;
+	}
+	&__items{
+		margin: 0 auto;
+
+	}
+	&__wrap{
+		font:24px $text;
+		color:$font;
+		display: flex;
+		flex-direction: column;
+		
+	}
+	&__img{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 33px;
+	}
+	&__number{
+		display: inline-block;
+	}
+	&__desc{
+		display: inline-block;
+		
+	}
+
+}
