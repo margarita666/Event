@@ -4,7 +4,7 @@
 	border: 0;
 	outline: none;
 	box-sizing: border-box;
-	transition: all .3s ease-in-out;
+	// transition: all .3s ease-in-out;
 }
 
 // img {
@@ -14,11 +14,13 @@
 
 html {
 	height: 100%;
+	font-size: 16px;
 }
 
 body, html {
 	min-height: 100%;
 	width: 100%;
+
 }
 
 .clear::after, .clear::before {
@@ -52,5 +54,8 @@ a{
 		svg{
 		height: 38px;
 		width: 51px;}
+	}
+	&__link:hover{
+		text-decoration: none;
 	}
 }

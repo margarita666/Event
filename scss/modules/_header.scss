@@ -4,7 +4,7 @@
 	background-size: cover;
 	padding-top: 40px;
 	margin-bottom: 60px;
-
+	
 	&__desc{
 		width: 31%;
 		margin: 0 auto;
@@ -13,6 +13,16 @@
 		color: #fff;
 		margin-top: 125px;
 	}
+	.icon{
+		fill:#fff;
+	}
+	&__navigation{
+			display: none;
+		}
+	.hmenu{
+		display: none;
+		overflow: hidden;
+	}
 }
 .logo{
 	position: absolute;
@@ -20,3 +30,69 @@
 	left: 50%;
 	margin-left: -92px;
 }
+@media only screen and (max-device-width: 768px){
+	.header{
+		background: url('../images/first_screen.jpg') no-repeat top center ;
+		background-size: cover;
+		margin-bottom: 0;
+		&__desc{
+			display: none;
+		}
+		.social{
+			display:none;
+		}
+		.icon{
+			display: none;
+		}
+		&__navigation{
+			display: block;
+			display: block;
+    width: 200px;
+    height: 100%;
+    background-color: lightgrey;
+    display: none;
+		}
+		* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    height: 100%;
+    padding: 0;
+  }
+ 
+  ul,
+  ul li,
+  ul li a {
+    display: block;
+    width: 200px;
+    color: #000;
+  }
+  ul li {
+    height: 50px;
+    line-height: 50px;
+  }
+  .hmenu {
+    width: 50px;
+    height: 50px;
+  }
+  .hmenu span {
+    display: block;
+    width: 90%;
+    height: 10px;
+    background: #ccc;
+    margin: 6px auto;
+    border-radius: 6px;
+  }
+  .hmenu.showw {
+    margin-left: 200px;
+  }
+  nav.show {
+    display: block;
+    margin-top: -50px;
+  }
+}
+
+	}
+

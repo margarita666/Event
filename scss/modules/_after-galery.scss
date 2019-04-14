@@ -1,0 +1,28 @@
+.after-galery{
+	background-color: $gray;
+	padding-top: 12px;
+	padding-bottom: 23px;
+	margin-bottom: 90px;
+	.icon{
+		fill:#fff;
+	}
+	&__title{
+		text-align: center;
+		font:14px $text;
+		color:$font;
+		margin-bottom: 15px;
+	}
+	.social{
+		text-align: center;
+	}
+}
+@media only screen and (max-device-width: 768px){
+  .after-galery{
+   &__title{
+   	display: none;
+   }
+   .icon{
+   	fill:$blue;
+   }
+  }
+}

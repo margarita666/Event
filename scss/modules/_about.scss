@@ -17,8 +17,29 @@
 		}
 	}
 
+	.icon {
+		fill:$font;
+	}
+
 }
 .social-about{
 	text-align: center;
 	color: $font;
+}
+@media only screen and (max-device-width: 768px) {
+	.v-container-about{
+	background: $about;}
+	.about{
+		background: $about;
+	&__info{
+		
+		width: 100%;
+		padding: 20px;
+		
+	}
+	.icon {
+		fill:$blue;
+	}
+	}
+
 }

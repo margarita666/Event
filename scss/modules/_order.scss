@@ -1,5 +1,6 @@
 .order{
 	margin-bottom: 155px;
+
 	&__title{
 		text-align: center;
 		font:24px $text;
@@ -17,12 +18,16 @@
 		background:#fff;
 		border: 1px solid $blue;
 		cursor: pointer;
+		display: flex;
+		align-self: center;
+		
 	}
 
 	&__btn:hover{
 		background: $blue;
 		color: #fff;
 		transition: all .2s;
+
 	}
 }
 
@@ -35,13 +40,23 @@
 		margin-bottom: 20px;
 	}
 	&__item{
+		font:14px/1.2 $text;
 		border-bottom: 1px solid $font;
+	}
+	&__item:hover{
+		border: 1px solid $about;
+		transition: all .1s;
+	}
+	&__item:focus{
+		border:1px solid $font;
 	}
 }
 .propositions{
 	border:1px solid $font;
 	width: 100%;
 	margin-bottom: 50px;
+	font:14px $text;
+		color: $font;
 }
 .data{
 	margin-bottom: 50px;
