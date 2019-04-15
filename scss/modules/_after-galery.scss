@@ -18,10 +18,7 @@
 }
 @media only screen and (max-device-width: 768px){
   .after-galery{
-   &__title{
-   	display: none;
-   }
-   .icon{
+    .icon{
    	fill:$blue;
    }
   }

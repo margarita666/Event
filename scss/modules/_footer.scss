@@ -12,17 +12,19 @@
 		fill:#fff;
 	}
 }
-// .v-container-footer{
-// 	display: flex;
-// 	justify-content: space-between;
-// }
+.v-container-footer{
+	display: flex;
+	justify-content: space-between;
+}
 @media only screen and (max-device-width: 768px){
   .footer{
   	&__text{
   		margin-bottom: 30px;
+  		text-align: center;
   	}
-   .social{
-   
-   }
+  .v-container-footer{
+	display: flex;
+	justify-content: center;
+	}
   }
 }
