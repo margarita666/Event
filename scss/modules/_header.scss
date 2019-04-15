@@ -62,6 +62,7 @@
 
 @media only screen and (max-device-width: 768px){
 	.header{
+		padding-top: 20px;
 		background: url('../images/first_screen.jpg') no-repeat top center;
 		background-size: cover;
 		height: 233px;
@@ -104,11 +105,4 @@
 }
 
 }
-// @media only screen and (max-device-width: 420px){
-// 	.header{
-// 	background: url('../images/first_screen_mobile.jpg') no-repeat top center;
-// 		background-size: cover;
-// 		height: 233px;
-// 		width: 100%;
-// 		margin-bottom: 0;}
-// }
+
