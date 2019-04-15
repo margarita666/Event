@@ -25,6 +25,8 @@
 	}
 }
 .logo{
+	width: 185px;
+	height: 80px;
 	position: absolute;
 	top:5px;
 	left: 50%;
@@ -60,9 +62,9 @@
 
 @media only screen and (max-device-width: 768px){
 	.header{
-		background: url('../images/first_screen_mobile.jpg') no-repeat top center;
+		background: url('../images/first_screen.jpg') no-repeat top center;
 		background-size: cover;
-		height: 300px;
+		height: 233px;
 		width: 100%;
 		margin-bottom: 0;
 		&__desc{
@@ -71,14 +73,12 @@
 		.social{
 			display:none;
 		}
-		/* .icon{
-			display: none;
-		} */
 		.topnav{display: block;}
 		.topnav a {display: none;}
   .topnav a.icon {
     float: left;
     display: block;
+    margin-top: -10px;
   }
   .topnav.responsive {
   	position: relative;
@@ -95,7 +95,20 @@
     display: block;
     text-align: right;
     color:$font;
-  }
+	}
+	.logo{
+    	margin-left: -77px;
+		width: 155px;
+		height: 55px;
 	}
 }
 
+}
+// @media only screen and (max-device-width: 420px){
+// 	.header{
+// 	background: url('../images/first_screen_mobile.jpg') no-repeat top center;
+// 		background-size: cover;
+// 		height: 233px;
+// 		width: 100%;
+// 		margin-bottom: 0;}
+// }
